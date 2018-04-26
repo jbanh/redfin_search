@@ -1,12 +1,22 @@
 # frozen_string_literal: true
-require 'selenium-webdriver'
-require 'capybara'
-require 'capybara/cucumber'
-require 'capybara/dsl'
 
-Selenium::WebDriver::Chrome.driver_path="/Users/jbanh/Downloads/chromedriver"
-browser = Selenium::WebDriver.for :chrome
+Given (/^I have navigated to Redfin$/) do
+  visit Capybara.app_host
+end
 
-Given (/^I navgiated to Redfin$/) do
-  browser.navigate.to "https://www.redfin.com"
+When (/^I click the login button$/) do
+  click_button('Log In')
+  expect(page).to have_button('Continue with Email')
+end
+
+Then (/^I can use my credentials to login$/) do
+  click_button('Continue with Email')
+  expect(page).to have_button('Sign In')
+  fill_in('Email', :with => 'jbanh12@yahoo.com')
+  fill_in('Password', :with => 'Acorns!')
+  click_button('Sign In')
+end
+
+Then (/^I will be logged in $/) do
+  expect(page).to have_selector('[data-rf-test-name="UserMenu"]')
 end
