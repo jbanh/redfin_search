@@ -13,8 +13,8 @@ end
 Then (/^I can use my credentials to login$/) do
   click_button(login_screen.continue_email_button)
   expect(page).to have_button(login_screen.sign_in_button)
-  fill_in(login_screen.email_field, :with => 'jbanh12@yahoo.com')
-  fill_in(login_screen.password_field, :with => 'Acorns!')
+  fill_in(login_screen.email_field, :with => @email)
+  fill_in(login_screen.password_field, :with => @password)
   click_button(login_screen.sign_in_button)
 end
 

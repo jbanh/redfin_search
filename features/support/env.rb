@@ -11,3 +11,8 @@ Capybara.register_driver :selenium do |app|
 end
 
 World(Capybara::DSL)
+
+Before do |scenario|
+  @email = 'jbanh12@yahoo.com'
+  @password = 'Acorns!'
+end
