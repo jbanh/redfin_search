@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="251972a0-f613-4245-a800-0d3ca7d21b9b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pages/login.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/login.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/redfin_login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/redfin_login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/redfin_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/redfin_steps.rb" afterDir="false" />
-    </list>
+    <list default="true" id="251972a0-f613-4245-a800-0d3ca7d21b9b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,20 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redfin_steps.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="redfin_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/redfin_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/login.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="432">
+              <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,8 +102,8 @@
         <option value="$PROJECT_DIR$/features/redfin_login.feature" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/redfin_steps.rb" />
         <option value="$PROJECT_DIR$/features/pages/login.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/redfin_steps.rb" />
       </list>
     </option>
   </component>
@@ -220,7 +212,7 @@
       <workItem from="1524797669065" duration="116000" />
       <workItem from="1524797886823" duration="132000" />
       <workItem from="1524798044850" duration="14578000" />
-      <workItem from="1524853653984" duration="9466000" />
+      <workItem from="1524853653984" duration="9580000" />
     </task>
     <task id="LOCAL-00001" summary="gemlock">
       <created>1524792924411</created>
@@ -240,13 +232,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9529000" />
+    <option name="totallyTimeSpent" value="9643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="193" y="23" width="1354" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005952" side_tool="true" weight="0.32924107" />
@@ -519,17 +511,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/redfin_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/pages/login.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="432">
+          <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/login.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/redfin_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
