@@ -1,4 +1,4 @@
-##Redfin Login, Search, and Filter
+## Redfin Login, Search, and Filter
 
 These tests will run two scenarios.
 + Login and verify user has logged in
